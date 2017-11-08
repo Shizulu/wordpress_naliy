@@ -1,0 +1,226 @@
+@charset "utf-8";
+
+/*
+Theme Name: Naliy
+Theme URI: http://naliy.opal.ne.jp/
+Author: M
+Author URI: http://naliy.opal.ne.jp/
+Description: naliy
+Version: 1.0
+*/
+
+/*reset
+------------------------------------------------------------*/
+html, body, div, p, span, a, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+abbr, address, cite, code, img, sub, sup, var,
+dl, dt, dd, ol, ul, li, form, label, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+section, article, aside, dialog, figure, footer, header,
+hgroup, menu, nav,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: transparent;
+	font-size: 100%;
+	vertical-align: baseline;
+	box-sizing: border-box;
+	outline: 0;
+}
+html {
+	height: 100%;
+	font-size: 62.5%;
+}
+body {
+	height: 100%;
+	background: #fff none repeat scroll 0 0;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 10px;
+	font-size: 1rem;
+	color: #333;
+	line-height: 1.4;
+	animation: fadeIn 2s ease 0s 1 normal;
+	-webkit-animation: fadeIn 2s ease 0s 1 normal;
+}
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0 }
+    100% { opacity: 1}
+}
+@keyframes fadeIn {
+    0% { opacity: 0 }
+    100% { opacity: 1 }
+}
+button {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	border: medium none;
+}
+ul, li {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	color: #190083;
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+}
+a:hover {
+	opacity: 0.8;
+}
+a:visited {
+	color: #6800a6;
+}
+.clearfix {
+	display: block;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+.img-wdt {
+	max-width: 100%;
+}
+.dsp-blk {
+	display: block;
+}
+
+/*common
+------------------------------------------------------------*/
+#main {
+      width: 85%;
+}
+.container {
+      margin: 0 auto;
+      overflow: hidden;
+}
+
+/*header
+------------------------------------------------------------*/
+#header h1 {
+      padding: 15px;
+      font-size: 3rem;
+}
+.menu {
+      margin: 0 0 30px;
+      font-size: 1.2rem;
+      overflow: hidden;
+}
+.menu li {
+      float: left;
+      width: 33.33333%;
+      width: -webkit-calc(100% / 3);
+      width: calc(100% / 3);
+      text-align: center;
+}
+.menu li a {
+      display: block;
+      padding: 20px 0;
+      background: #000 none repeat scroll 0 0;
+      color: #fff;
+}
+.menu li a:hover {
+      opacity: 0.8;
+}
+
+/*posts / post
+------------------------------------------------------------*/
+#posts {
+      float: left;
+      width: 80%;
+      padding: 0 50px 0 0;
+}
+.post {
+      margin: 0 0 30px;
+}
+.post-header {
+      margin: 0 0 15px;
+}
+.post-header h2 {
+      font-size: 2rem;
+}
+.post-meta {
+      padding: 10px 0;
+      color: #555;
+      font-size: 1.2rem;
+}
+.post-content {
+      overflow: hidden;
+}
+.post-content p {
+      font-size: 1.6rem;
+}
+.post-image {
+      float: left;
+      width: 115px;
+}
+.post-body {
+      margin: 0 0 0 115px;
+}
+
+/*navigation
+------------------------------------------------------------*/
+.navigation {
+      margin: 0 0 15px;
+      padding: 10px 0;
+      font-size: 1.2rem;
+      overflow: hidden;
+}
+.prev {
+      float: left;
+      width: 50%;
+}
+.next {
+      float: right;
+      width: 50%;
+      text-align: right;
+}
+
+/*sidebar
+------------------------------------------------------------*/
+#sidebar {
+      float: right;
+      width: 20%;
+      font-size: 1.4rem;
+}
+.widget {
+      margin: 0 0 25px;
+}
+.widget h3 {
+      padding: 0 0 8px;
+}
+.widget li {
+      margin: 0 0 8px;
+}
+
+/*footer
+------------------------------------------------------------*/
+#footer {
+      padding: 15px 0;
+      border-top: 1px solid #ccc;
+      color: #aaa;
+      font-size: 1.2rem;
+      text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
